@@ -1,0 +1,19 @@
+{
+  "name": "expo-audit",
+  "private": true,
+  "scripts": {
+    "build": "pnpm -r build",
+    "dev": "pnpm -r dev",
+    "lint": "pnpm -r lint",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "typescript": "^5.4.0",
+    "vitest": "^4.1.5"
+  },
+  "dependencies": {
+    "commander": "^14.0.3"
+  }
+}

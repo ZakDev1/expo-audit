@@ -1,0 +1,19 @@
+{
+  "name": "expo-audit",
+  "version": "0.1.0",
+  "type": "module",
+  "bin": {
+    "expo-audit": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "npx tsc",
+    "dev": "npx tsc --watch"
+  },
+  "dependencies": {
+    "@expo-audit/core": "workspace:*",
+    "commander": "^14.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0"
+  }
+}
